@@ -1,0 +1,51 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Title and heading styling */
+  h1 {
+    color: #ff6f61; /* Warm red color */
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the unordered list */
+  .unlist {
+    list-style-type: none;  /* Removes default list bullets */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .unlist li {
+    background-color: #ffffff; /* White background for each menu item */
+    padding: 10px 20px;
+    margin: 5px 0;
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    font-size: 18px;
+    color: #333;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .unlist li:hover {
+    background-color: #ff6f61; /* Change background color on hover */
+    color: #fff; /* White text when hovering */
+  }
+  
